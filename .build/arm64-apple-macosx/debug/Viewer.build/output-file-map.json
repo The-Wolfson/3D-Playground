@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/master.swiftdeps"
+  },
+  "/Users/joshuawolfson/Documents/Coding/3D Playground/Sources/Viewer/Types/Shape.swift": {
+    "dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Shape.d",
+    "object": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Shape.swift.o",
+    "swiftmodule": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Shape~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Shape.swiftdeps",
+    "diagnostics": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Shape.dia"
+  },
+  "/Users/joshuawolfson/Documents/Coding/3D Playground/Sources/Viewer/Types/Vertex.swift": {
+    "dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Vertex.d",
+    "object": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Vertex.swift.o",
+    "swiftmodule": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Vertex~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Vertex.swiftdeps",
+    "diagnostics": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Vertex.dia"
+  },
+  "/Users/joshuawolfson/Documents/Coding/3D Playground/Sources/Viewer/Viewer.swift": {
+    "dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Viewer.d",
+    "object": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Viewer.swift.o",
+    "swiftmodule": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Viewer~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Viewer.swiftdeps",
+    "diagnostics": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Viewer.build/Viewer.dia"
+  }
+}

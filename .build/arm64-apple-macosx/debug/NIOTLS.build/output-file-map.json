@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/master.swiftdeps"
+  },
+  "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/checkouts/swift-nio/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift": {
+    "dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/ApplicationProtocolNegotiationHandler.d",
+    "object": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/ApplicationProtocolNegotiationHandler.swift.o",
+    "swiftmodule": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/ApplicationProtocolNegotiationHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/ApplicationProtocolNegotiationHandler.swiftdeps",
+    "diagnostics": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/ApplicationProtocolNegotiationHandler.dia"
+  },
+  "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/checkouts/swift-nio/Sources/NIOTLS/NIOTypedApplicationProtocolNegotiationHandler.swift": {
+    "dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/NIOTypedApplicationProtocolNegotiationHandler.d",
+    "object": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/NIOTypedApplicationProtocolNegotiationHandler.swift.o",
+    "swiftmodule": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/NIOTypedApplicationProtocolNegotiationHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/NIOTypedApplicationProtocolNegotiationHandler.swiftdeps",
+    "diagnostics": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/NIOTypedApplicationProtocolNegotiationHandler.dia"
+  },
+  "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/checkouts/swift-nio/Sources/NIOTLS/ProtocolNegotiationHandlerStateMachine.swift": {
+    "dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/ProtocolNegotiationHandlerStateMachine.d",
+    "object": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/ProtocolNegotiationHandlerStateMachine.swift.o",
+    "swiftmodule": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/ProtocolNegotiationHandlerStateMachine~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/ProtocolNegotiationHandlerStateMachine.swiftdeps",
+    "diagnostics": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/ProtocolNegotiationHandlerStateMachine.dia"
+  },
+  "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/checkouts/swift-nio/Sources/NIOTLS/SNIHandler.swift": {
+    "dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/SNIHandler.d",
+    "object": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/SNIHandler.swift.o",
+    "swiftmodule": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/SNIHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/SNIHandler.swiftdeps",
+    "diagnostics": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/SNIHandler.dia"
+  },
+  "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/checkouts/swift-nio/Sources/NIOTLS/TLSEvents.swift": {
+    "dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/TLSEvents.d",
+    "object": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/TLSEvents.swift.o",
+    "swiftmodule": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/TLSEvents~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/TLSEvents.swiftdeps",
+    "diagnostics": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOTLS.build/TLSEvents.dia"
+  }
+}

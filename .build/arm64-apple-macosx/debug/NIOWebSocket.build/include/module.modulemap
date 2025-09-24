@@ -1,0 +1,3 @@
+module NIOWebSocket {
+    header "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/NIOWebSocket.build/include/NIOWebSocket-Swift.h"
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Collections.build/master.swiftdeps"
+  },
+  "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/checkouts/swift-collections/Sources/Collections/Collections.swift": {
+    "dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Collections.build/Collections.d",
+    "object": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Collections.build/Collections.swift.o",
+    "swiftmodule": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Collections.build/Collections~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Collections.build/Collections.swiftdeps",
+    "diagnostics": "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Collections.build/Collections.dia"
+  }
+}

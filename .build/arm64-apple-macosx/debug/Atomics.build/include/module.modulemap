@@ -1,0 +1,3 @@
+module Atomics {
+    header "/Users/joshuawolfson/Documents/Coding/3D Playground/.build/arm64-apple-macosx/debug/Atomics.build/include/Atomics-Swift.h"
+}
