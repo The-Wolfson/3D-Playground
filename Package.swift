@@ -6,16 +6,18 @@ import PackageDescription
 let package = Package(
     name: "3D Playground",
     platforms: [
-        .macOS(.v10_15)
+        .macOS(.v11)
         ],
     dependencies: [
         .package(url: "https://github.com/vapor/console-kit", from: Version(4, 15, 2)),
+        .package(url: "https://github.com/apple/swift-argument-parser", from: Version(1, 6, 1)),
     ],
     targets: [
         .executableTarget(
             name: "Viewer",
             dependencies: [
-                .product(name: "ConsoleKit", package: "console-kit")
+                .product(name: "ConsoleKit", package: "console-kit"),
+                .product(name: "ArgumentParser", package: "swift-argument-parser")
             ]
         ),
     ]

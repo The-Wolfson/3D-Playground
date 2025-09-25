@@ -30,6 +30,43 @@ extension Shape {
 
 //MARK: - Shape Definitions
 
+struct Custom: Shape {
+    let vertices: [Vertex]
+    let faces: [Face]
+    
+    init(data: String) {
+        let lines = data.split(separator: "\n")
+        var vertices: [Vertex] = []
+        var faces: [Face] = []
+        
+        for line in lines {
+            let components = line.split(separator: " ")
+            if components.isEmpty { continue }
+
+            let type = components[0]
+            switch type {
+            case "v":
+                if components.count >= 4,
+                   let x = Double(components[1]),
+                   let y = Double(components[2]),
+                   let z = Double(components[3]) {
+                    vertices.append(Vertex(x: x, y: y, z: z))
+                }
+            case "f":
+                if components.count >= 4 {
+                    let indices = components.compactMap { Int($0) }.map { $0 - 1 }
+                    faces.append(Face(indices))
+                }
+            default:
+                continue
+            }
+        }
+        
+        self.vertices = vertices
+        self.faces = faces
+    }
+}
+
 // Cube
 struct Cube: Shape {
     let vertices: [Vertex] = [

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import ConsoleKitTerminal
 
 struct Vertex {
     var x: Double
@@ -27,7 +28,7 @@ struct Vertex {
 
 extension Vertex {
     func project(width: Int, height: Int) -> Coordinate {
-        let f = 3.0
+        let f = 3.0 // needs to auto adjust to size
         let zOffset = z + 5
         guard zOffset != 0 else { return Coordinate(x: width / 2, y: height / 2) }
         let x2d = Int((x / zOffset) * f * Double(width) / 2 + Double(width) / 2)
@@ -59,6 +60,16 @@ struct Edge: Hashable {
     init(_ v0: Int, _ v1: Int) {
         self.v0 = min(v0, v1)
         self.v1 = max(v0, v1)
+    }
+}
+
+extension Edge {
+    func consoleColour() -> ConsoleColor {
+        let key = (UInt64(v0) << 32) | UInt64(v1)
+        var hasher = Hasher()
+        hasher.combine(key)
+        let hashValue = hasher.finalize()
+        return ConsoleColor.palette(UInt8(truncatingIfNeeded: hashValue))
     }
 }
 
